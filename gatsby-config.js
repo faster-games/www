@@ -8,9 +8,24 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
+    // Used for the title template on pages other than the index site
+    siteTitle: `FasterGames`,
+    // Default title of the page
     siteTitleAlt: `FasterGames - Creating tools that streamline game development for indies`,
+    // Can be used for e.g. JSONLD
+    siteHeadline: `FasterGames - Creating tools that streamline game development for indies`,
+    // Will be used to generate absolute URLs for og:image etc.
+    siteUrl: `https://faster-games.com`,
+    // Used for SEO
+    siteDescription: `Creating tools that streamline game development for indies`,
+    // Will be set on the <html /> tag
+    siteLanguage: `en`,
+    // Used for og:image and must be placed inside the `static` folder
+    siteImage: `/banner.jpg`,
+    // Description again
     description: `Creating tools that streamline game development for indies`,
-    author: `FasterGames`,
+    // Twitter Handle
+    author: `@getfastergames`,
   },
   plugins: [
     {
